@@ -6,21 +6,42 @@ This plugin gives you an easy to use and still customisable vanish system for yo
 - Spigot/Paper/Bukkit 1.21.8
 
 # Features
+- Vanished players are remembered (even after server restarts!)
 - Suffix over head of vanished players (toggleable & customisable)
 - Particles when switching to and from vanish (toggleable)
 - See vanished players (If required permissions are met)
 - Toggle vanish for other players (If required permissions are met)
-- Customisable permissions
+- All permissions are customisable
 
-# Permissions and Commands
+# Information
+- This plugin does **not** change the player preview from the server list. Vanished players are still visible there. Try turning the preview list off if this bothers you or disabling the reporting of playernames.
+
+## Permissions and Commands
 | **Commands**        |**Description**          | **Permissions**       |
 |---------------------|-------------------------|-----------------------|
 | /v                  | Vanish yourself         | Vanish.use            |
 | /vanish             | Vanish yourself         | Vanish.use            |
-| /v (Player)         | Vanish other players    | Vanish.others         |
-| /vanish (Player)    | Vanish other players    | Vanish.others         |
+| /v <Player>         | Vanish other players    | Vanish.others         |
+| /vanish <Player>    | Vanish other players    | Vanish.others         |
 
 ## Passive permissions
 |**Description**          | **Permissions**       |
 |-------------------------|-----------------------|
 | See vanished players    | Vanish.seeOthers      |
+
+## Config file
+```
+Vanish:
+  System:
+    Prefix: '&eVanish &8>'
+  User:
+    Suffix: '&8[&eV&8]'
+  Settings:
+    EnableSuffix: true
+    Particles: true
+  Permissions:
+    Use: Vanish.use
+    UseOnOthers: Vanish.others
+    SeeVanished: Vanish.seeOthers
+
+```
