@@ -17,8 +17,8 @@ This plugin gives you an easy to use and still customisable vanish system for yo
 |---------------------|-------------------------|-----------------------|
 | /v                  | Vanish yourself         | Vanish.use            |
 | /vanish             | Vanish yourself         | Vanish.use            |
-| /v <Player>         | Vanish other players    | Vanish.others         |
-| /vanish <Player>    | Vanish other players    | Vanish.others         |
+| /v (Player)         | Vanish other players    | Vanish.others         |
+| /vanish (Player)    | Vanish other players    | Vanish.others         |
 
 ## Passive permissions
 |**Description**          | **Permissions**       |
