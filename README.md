@@ -1,4 +1,4 @@
-
+![Title](https://cdn.modrinth.com/data/cached_images/bc255a6940ee58b4974530854bc34fd8bf782420.png)
 # What does the Plugin do?
 This plugin gives you an easy to use and still customisable vanish system for your Minecraft Server.
 
