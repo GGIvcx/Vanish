@@ -6,7 +6,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import de.ivcx.vanish.Commands.CMDvanish;
 import de.ivcx.vanish.Listener.Events;
-import de.ivcx.vanish.Listener.PlayerListHider;
 
 public class Main extends JavaPlugin{
 	
@@ -22,7 +21,6 @@ public class Main extends JavaPlugin{
 		getCommand("vanish").setExecutor(new CMDvanish());
 		
 		getServer().getPluginManager().registerEvents(new Events(), this);
-		getServer().getPluginManager().registerEvents(new PlayerListHider(), this);
 		
 		initConfig();
 		//startActionBarRotation();

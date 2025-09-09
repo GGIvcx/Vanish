@@ -4,7 +4,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.Effect;
 import org.bukkit.entity.Player;
 
-import de.ivcx.vanish.Listener.PlayerListHider;
 import net.md_5.bungee.api.ChatColor;
 
 public class Vanish {
@@ -35,8 +34,6 @@ public class Vanish {
 			all.showPlayer(t);
 		}
 		if(Main.getInstance().getConfig().getBoolean("Vanish.Settings.EnableSuffix") == true) {Scoreboards.removeSuffix(t);}
-		PlayerListHider hider = new PlayerListHider();
-		hider.showPlayer(t.getName());
 		
 	}
 	
@@ -48,8 +45,6 @@ public class Vanish {
 				all.showPlayer(t);
 			}
 			if(Main.getInstance().getConfig().getBoolean("Vanish.Settings.EnableSuffix") == true) {Scoreboards.addSuffix(t);}
-			PlayerListHider hider = new PlayerListHider();
-			hider.hidePlayer(t.getName());
 		}
 		
 		
