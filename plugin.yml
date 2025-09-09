@@ -1,0 +1,9 @@
+name: Vanish
+author: Ivcx
+version: 1.0
+main: de.ivcx.vanish.Main
+commands:
+     v:
+          description: Hides a player
+     vanish:
+          description: Hides a player
