@@ -11,3 +11,16 @@ This plugin gives you an easy to use and still customisable vanish system for yo
 - See vanished players (If required permissions are met)
 - Toggle vanish for other players (If required permissions are met)
 - Customisable permissions
+
+# Permissions and Commands
+| **Commands**        |**Description**          | **Permissions**       |
+|---------------------|-------------------------|-----------------------|
+| /v                  | Vanish yourself         | Vanish.use            |
+| /vanish             | Vanish yourself         | Vanish.use            |
+| /v <Player>         | Vanish other players    | Vanish.others         |
+| /vanish <Player>    | Vanish other players    | Vanish.others         |
+
+## Passive permissions
+|**Description**          | **Permissions**       |
+|-------------------------|-----------------------|
+| See vanished players    | Vanish.seeOthers      |
