@@ -41,11 +41,13 @@ public class Main extends JavaPlugin{
 		this.getConfig().addDefault("Vanish.User.Suffix", "&8[&eV&8]");
 		this.getConfig().addDefault("Vanish.Settings.Particles", true);
 		this.getConfig().addDefault("Vanish.Settings.EnableSuffix", true);
+		this.getConfig().addDefault("Vanish.Settings.EnableItemPickup", false); 
+		this.getConfig().addDefault("Vanish.Settings.EnableMobTarget", false); 
 		this.getConfig().addDefault("Vanish.Permissions.Use", "Vanish.use");
 		this.getConfig().addDefault("Vanish.Permissions.UseOnOthers", "Vanish.others");
 		this.getConfig().addDefault("Vanish.Permissions.SeeVanished", "Vanish.seeOthers");
 		this.getConfig().options().copyDefaults(true);
 		this.saveConfig();
-		System.out.println("[ServerSystem] config.yml succesfully (re)loaded");
+		System.out.println("[Vanish] config.yml succesfully (re)loaded");
     }
 }
