@@ -41,7 +41,6 @@ Vanish:
     EnableItemPickup: false
     EnableMobTarget: false
     EnableSuffix: true
-    Particles: true
   Permissions:
     Use: Vanish.use
     UseOnOthers: Vanish.others
