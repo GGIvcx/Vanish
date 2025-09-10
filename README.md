@@ -37,6 +37,9 @@ Vanish:
   User:
     Suffix: '&8[&eV&8]'
   Settings:
+    EnableParticles: true
+    EnableItemPickup: false
+    EnableMobTarget: false
     EnableSuffix: true
     Particles: true
   Permissions:
