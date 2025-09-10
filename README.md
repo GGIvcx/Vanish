@@ -47,3 +47,13 @@ Vanish:
     SeeVanished: Vanish.seeOthers
 
 ```
+### Explanation
+- **Prefix** = The Prefix the plugin uses in chat
+- **Suffix** = The Suffix used in the name of vanished players
+- **EnableParticles** = Use particles when switching to an from vanish
+- **EnableItemPickup** = If players should be able to pick up items when vanished
+- **EnableMobTarget** = If players should be targetet by mobs when vanished
+- **EnableSuffix** = If the Suffix should be used
+- **Use** = Permission required for use of the vanish command
+- **UseOnOthers** = Permission required for use of the vanish command on other players
+- **SeeVanished** = Permission required to see other vanished players
