@@ -25,7 +25,7 @@ public class Vanish {
 			//t.sendTitle("§eVanish", "§aActivated");
 			hidePlayer(t);
 		}
-		if(Main.getInstance().getConfig().getBoolean("Vanish.Settings.Particles") == true) {playVisuals(t);}
+		if(Main.getInstance().getConfig().getBoolean("Vanish.Settings.EnableParticles") == true) {playVisuals(t);}
 	}
 	
 	public static void showPlayer (Player player) {

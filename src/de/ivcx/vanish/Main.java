@@ -39,7 +39,7 @@ public class Main extends JavaPlugin{
 		this.reloadConfig();			
 		this.getConfig().addDefault("Vanish.System.Prefix", "&eVanish &8>");
 		this.getConfig().addDefault("Vanish.User.Suffix", "&8[&eV&8]");
-		this.getConfig().addDefault("Vanish.Settings.Particles", true);
+		this.getConfig().addDefault("Vanish.Settings.EnableParticles", true);
 		this.getConfig().addDefault("Vanish.Settings.EnableSuffix", true);
 		this.getConfig().addDefault("Vanish.Settings.EnableItemPickup", false); 
 		this.getConfig().addDefault("Vanish.Settings.EnableMobTarget", false); 
