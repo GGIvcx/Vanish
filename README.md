@@ -12,6 +12,7 @@ This plugin gives you an easy to use and still customisable vanish system for yo
 - See vanished players (If required permissions are met)
 - Toggle vanish for other players (If required permissions are met)
 - All permissions are customisable
+- Item pickup and mobs targeting the vanished players are disabled by default (toggleable)
 
 # Information
 - This plugin does **not** change the player preview from the server list. Vanished players are still visible there. Try turning the preview list off if this bothers you or disabling the reporting of playernames.
